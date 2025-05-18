@@ -1,0 +1,133 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* General body settings */
+    body {
+      font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+      background-color: #F5F5DC; /* Soft beige tone */
+    }
+
+    /* Navigation bar styling */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #b0be98;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    /* Logo style */
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #556B2F;
+    }
+
+    /* Navigation links container */
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 3rem;
+    }
+
+    /* Individual link style */
+    .nav-links a {
+      text-decoration: none;
+      color: #556B2F;
+      font-weight: 500;
+      transition: color 0.3s ease;
+      font-size: 1.6rem;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Hover effect for links */
+    .nav-links a:hover {
+      color: #9bbfa2;
+    }
+
+    /* Custom horizontal rule */
+    .custom-hr {
+      border: none;
+      height: 10px;
+      background-color: #b0be98;
+      margin: 10px 0;
+    }
+
+    /* Main heading style */
+    h1 {
+      text-align: center;
+      color: #F5F5DC;
+      font-size: 4rem;
+      font-weight: 600;
+      font-family: 'Calisto MT', 'Bookman Old Style', serif;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+      margin-bottom: 0rem;
+      margin-top: 0rem;
+    }
+
+    /* Section main heading background */
+    .main-heading {
+      background-color: #677e56;
+      padding: 40px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    /* Section subheading (h2) style */
+    h2 {
+      text-align: center;
+      color: #556B2F;
+      font-size: 2rem;
+      font-weight: 500;
+      font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+    }
+
+    /* Section minor heading (h3, h4) style */
+    h3, h4 {
+      text-align: center;
+      color: #7f955e;
+      font-size: 1.5rem;
+      font-weight: 500;
+      font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+    }
+
+    /* Footer heading style */
+    h5 {
+      text-align: center;
+      text-decoration: none;
+      color: #7f955e;
+      font-size: 1rem;
+      font-weight: 500;
+      font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+
+    /* Footer background */
+    .copy-right {
+      background-color: #b0be98;
+      padding: 10px;
+      margin-bottom: 0px;
+      text-align: center;
+    }
+
+    /* Paragraph styling */
+    p {
+      font-size: 1.4rem;
+      color: #556B2F;
+      max-width: 600px;
+      margin: 0 auto 2rem auto;
+      text-align: center;
+    }
